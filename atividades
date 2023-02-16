@@ -54,7 +54,6 @@
 # nota3<- as.numeric(readline("terceira nota:"))
 # nota<-(nota1+nota1+nota3)/3
 # nota<-round(nota,2)
-
 # if (nota<=10 && nota>=9){print(paste(nota,"conceito A"))
 # }else if (nota>=7 && nota<=9){print(paste(nota,"conceito B"))
 # }else if(nota>=5 && nota<7){print(paste(nota,"conceito C"))
@@ -66,4 +65,19 @@
 # while(i<10){
 #     print(i)
 #     i<-i+1
+# }
+
+#atividade8
+# x<-1:5 
+# for (val in x){ #val pode ser qualquer nome
+#     if(val==3){
+#         next
+#     }
+#     print(val)
+# }
+
+#atividade9
+# for(n in 0:4){
+#     n<-n+1
+#     print(n)
 # }
